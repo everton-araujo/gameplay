@@ -1,12 +1,8 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import { SignIn } from './src/screens/SignIn';
 
-const App = () => {
+export default function App() {
   return (
-    <View>
-      <Text>Hello World</Text>
-    </View>
-  );
-};
-
-export default App;
+    <SignIn />
+  )
+}
