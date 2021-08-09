@@ -12,6 +12,11 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		EAE6ACDA49A4497DB5E386A6 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7541B2AB7C104979A1199BDA /* Inter-Bold.ttf */; };
+		0C08C33F88D24BF98B742298 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B7B47336E8D47D684D0D7EA /* Inter-Regular.ttf */; };
+		FFEB3D7CE58545BB9BD15B8B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DD7ABEA503E41BEA6C805B2 /* Inter-Medium.ttf */; };
+		4797CB9EB461405B91226599 /* Rajdhani-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57C596FF28664F90A30D757D /* Rajdhani-Bold.ttf */; };
+		9C14758026494D1692D9DA18 /* Rajdhani-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64C6CD6A4E3A415CA195B4AD /* Rajdhani-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = gameplay/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = gameplay/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		7541B2AB7C104979A1199BDA /* Inter-Bold.ttf */ = {isa = PBXFileReference; name = "Inter-Bold.ttf"; path = "../assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B7B47336E8D47D684D0D7EA /* Inter-Regular.ttf */ = {isa = PBXFileReference; name = "Inter-Regular.ttf"; path = "../assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5DD7ABEA503E41BEA6C805B2 /* Inter-Medium.ttf */ = {isa = PBXFileReference; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57C596FF28664F90A30D757D /* Rajdhani-Bold.ttf */ = {isa = PBXFileReference; name = "Rajdhani-Bold.ttf"; path = "../assets/fonts/Rajdhani-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64C6CD6A4E3A415CA195B4AD /* Rajdhani-Medium.ttf */ = {isa = PBXFileReference; name = "Rajdhani-Medium.ttf"; path = "../assets/fonts/Rajdhani-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,7 @@
 				00E356EF1AD99517003FC87E /* gameplayTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				3C33410ABF814FFEAAE3EBC6 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +134,19 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		3C33410ABF814FFEAAE3EBC6 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				7541B2AB7C104979A1199BDA /* Inter-Bold.ttf */,
+				3B7B47336E8D47D684D0D7EA /* Inter-Regular.ttf */,
+				5DD7ABEA503E41BEA6C805B2 /* Inter-Medium.ttf */,
+				57C596FF28664F90A30D757D /* Rajdhani-Bold.ttf */,
+				64C6CD6A4E3A415CA195B4AD /* Rajdhani-Medium.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +238,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				EAE6ACDA49A4497DB5E386A6 /* Inter-Bold.ttf in Resources */,
+				0C08C33F88D24BF98B742298 /* Inter-Regular.ttf in Resources */,
+				FFEB3D7CE58545BB9BD15B8B /* Inter-Medium.ttf in Resources */,
+				4797CB9EB461405B91226599 /* Rajdhani-Bold.ttf in Resources */,
+				9C14758026494D1692D9DA18 /* Rajdhani-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
