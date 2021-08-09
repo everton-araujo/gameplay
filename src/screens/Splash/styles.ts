@@ -10,6 +10,7 @@ export const styles = StyleSheet.create({
     backgroundColor: theme.colors.background,
   },
   image: {
-    width: '180%',
+    width: '100%',
+    height: '100%',
   }
 });
