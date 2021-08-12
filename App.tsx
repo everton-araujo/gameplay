@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'react-native';
-
 import { Background } from './src/components/Background';
+
+import { Routes } from './src/routes';
 import { SignIn } from './src/screens/SignIn';
 import { Splash } from './src/screens/Splash';
 
@@ -24,8 +25,9 @@ export default function App() {
       {
         load 
           ? <Splash />
-          : <SignIn />
+          // : <SignIn />
+          : <Routes />
       }
     </Background>
-  )
+  );
 }

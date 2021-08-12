@@ -1,4 +1,5 @@
 import React from 'react';
+import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
 import { 
   Image, 
   ImageSourcePropType, 
@@ -10,14 +11,14 @@ import {
 
 import { styles } from './styles';
 
-type ButtonProps = TouchableOpacityProps & {
+type ButtonProps = RectButtonProps & {
   title: string;
   image: ImageSourcePropType;
 }
 
 export function ButtonIcon({ title, image, ...rest }: ButtonProps) {
   return (
-    <TouchableOpacity 
+    <RectButton 
       style={styles.container} 
       {...rest}
     >
@@ -28,6 +29,6 @@ export function ButtonIcon({ title, image, ...rest }: ButtonProps) {
       <Text style={styles.title}>
         {title}
       </Text>
-    </TouchableOpacity>
+    </RectButton>
   )
 }
