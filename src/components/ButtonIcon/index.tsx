@@ -4,8 +4,6 @@ import {
   Image, 
   ImageSourcePropType, 
   Text, 
-  TouchableOpacity, 
-  TouchableOpacityProps, 
   View 
 } from 'react-native';
 
@@ -13,7 +11,7 @@ import { styles } from './styles';
 
 type ButtonProps = RectButtonProps & {
   title: string;
-  image: ImageSourcePropType;
+  image?: ImageSourcePropType;
 }
 
 export function ButtonIcon({ title, image, ...rest }: ButtonProps) {
@@ -22,9 +20,16 @@ export function ButtonIcon({ title, image, ...rest }: ButtonProps) {
       style={styles.container} 
       {...rest}
     >
-      <View style={styles.iconWrapper}>
-        <Image source={image} style={styles.icon} />
-      </View>
+      {
+        image && (
+          <View style={styles.iconWrapper}>
+            <Image 
+              style={styles.icon}
+              source={image}
+            />
+          </View>
+        )
+      }
 
       <Text style={styles.title}>
         {title}
