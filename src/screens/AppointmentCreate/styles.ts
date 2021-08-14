@@ -45,6 +45,7 @@ export const styles = StyleSheet.create({
   column: {
     flexDirection: 'row',
     alignItems: 'center',
+    marginTop: 8,
   },
   divider: {
     marginRight: 4,
