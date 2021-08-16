@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+
 import { theme } from "../../global/styles/theme";
 
 export const styles = StyleSheet.create({
@@ -11,5 +12,8 @@ export const styles = StyleSheet.create({
     fontFamily: theme.fonts.text,
     marginRight: 4,
     textAlign: 'center',
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: theme.colors.secondary50,
   }
 });

@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+
 import { theme } from "../../global/styles/theme";
 
 export const styles = StyleSheet.create({
@@ -9,7 +10,11 @@ export const styles = StyleSheet.create({
     color: theme.colors.heading,
     fontSize: 13,
     fontFamily: theme.fonts.text,
-    marginRight: 4,
-    textAlign: 'center',
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: theme.colors.secondary50,
+    paddingHorizontal: 16,
+    paddingTop: 16,
+    textAlignVertical: 'top'
   }
 });
