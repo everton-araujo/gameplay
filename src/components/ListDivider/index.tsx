@@ -3,8 +3,19 @@ import { View } from "react-native";
 
 import { styles } from './styles';
 
-export function ListDivider() {
+type ListDividerProps = {
+  isCentralized?: boolean;
+}
+
+export function ListDivider({ isCentralized }: ListDividerProps) {
   return (
-    <View style={styles.container} />
+    <View 
+      style={[
+        styles.container,
+        isCentralized 
+          ? { marginVertical: 12 }
+          : { marginTop: 2, marginBottom: 32 }
+      ]} 
+    />
   );
 }
